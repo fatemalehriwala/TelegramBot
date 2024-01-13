@@ -1,7 +1,7 @@
 from typing import Final
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler,filters, ContextTypes
-TOKEN: Final='6753393223:AAE7MCKKKAZ1ceoUM-A73TEY6fgpiyzG09A'
+TOKEN: Final='token'
 bot_username: Final = '@Jspm_college_bot' 
 #commands
 async def start_command(update:Update,context:ContextTypes.DEFAULT_TYPE):
